@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head>
+<title> GOLD HEN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+var histlength=history.length;history.go(-histlength 2);
+</script>
+<h1 id=msgs> GOLD HEN</h1>
+
+<br>
+<div id=menu>
+<h1 style="font-size: 18px;color: yellow;">اختر نظام جهازك</h1>
+
+<br>
+<a href="g2all/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.00 - 13.52 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4  Exploit Host by @YOUUSEEF7'"> GoldHEN لنظام 7.00 - 13.52 </button></a>
+
+
+<h1 style="margin-top: 78px;"></h1>
+</div>
+<div id=crypto>
+<h1 style="font-size: 18px;color: yellow;"></h1>
+<img src="btc.jpg" width="150" height="150">
+<br>
+<h1 style="font-size: 18px;"></h1>
+<br>
+<h1 style="font-size: 18px;color: yellow;">ه </h1>
+<img src="eth.jpg" width="150" height="150">
+<h1 style="font-size: 18px;"></h1>
+<button class="btn" onclick="load_menu()"> رجوع </button>
+</div>
+<script>
+function donations(){
+document.getElementById("crypto").style.display = "block";
+document.getElementById("menu").style.display = "none";
+}
+
+function load_menu(){
+document.getElementById("menu").style.display = "block";
+document.getElementById("crypto").style.display = "none";
+}
+</script>
+</body>
+</html>
